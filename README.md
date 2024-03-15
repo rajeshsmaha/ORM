@@ -24,11 +24,32 @@ Execute Django admin and create details for 10 books
 
 ## PROGRAM
 
-Include your code here
+admin.py
+
+from django.contrib import admin
+from .models import footballplayer,footballplayerAdmin
+admin.site.register(footballplayer,footballplayerAdmin)
+
+models.py
+
+from django.db import models
+from django.contrib import admin
+class footballplayer (models.Model):
+    name=models.CharField(max_length=15)
+    weight=models.IntegerField()
+    age=models.IntegerField()
+    members=models.CharField(max_length=20)
+    experiance=models.IntegerField()
+
+class footballplayerAdmin(admin.ModelAdmin):
+    list_display=('name','weight','age','members','experiance')
+
+
+
 
 ## OUTPUT
 
-Include the screenshot of your admin page.
+![image](https://github.com/Dilliarasu0105/ORM/assets/144979593/8a5d56c5-f6ba-4bd8-908d-1b378aab5827)
 
 
 ## RESULT
