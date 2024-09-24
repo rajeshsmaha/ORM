@@ -49,7 +49,8 @@ admin.site.register (Book,Display_book)
 ```
 
 ## OUTPUT
- ![Screenshot 2024-03-18 133816](https://github.com/Rohanjeyachandiran/ORM/assets/161102491/688ce382-531b-40b5-a403-02afde93ad45)
+ ![Screenshot 2024-09-24 213955](https://github.com/user-attachments/assets/d972836c-1bf2-4337-b1cf-a097104ba728)
+
 
 
 ## RESULT
